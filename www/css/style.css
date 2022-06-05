@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+body{
+    background-color: #18141c;
+}
+
+input{
+    text-align: center;
+}
+
+button{
+    color:  #8824d4;
+}
