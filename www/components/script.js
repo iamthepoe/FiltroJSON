@@ -10,7 +10,7 @@ window.onload = function(){
         .then((json)=>{        
             for(i = 0; i < json.length; i++){
             		d.innerHTML+= `
-                    <div class="row">
+                    <div class="row line">
                         <div class="col-4">
                             <img class="img-fluid" src="https://profrodolfo.com.br/projeto/${json[i].foto}">
                         </div>
@@ -36,7 +36,7 @@ window.onload = function(){
             for(i = 0; i < json.length; i++){
             	if(json[i].nome.toUpperCase().includes(nome)){
             		d.innerHTML+= `
-                    <div class="row">
+                    <div class="row line">
                         <div class="col-4">
                             <img class="img-fluid" src="https://profrodolfo.com.br/projeto/${json[i].foto}">
                         </div>
@@ -60,7 +60,7 @@ window.onload = function(){
             for(i = 0; i < json.length; i++){
             	if(json[i].valor<=preco){
             		d.innerHTML+= `
-                    <div class="row">
+                    <div class="row line">
                         <div class="col-4">
                             <img class="img-fluid" src="https://profrodolfo.com.br/projeto/${json[i].foto}">
                         </div>
